@@ -1,0 +1,174 @@
+:root {
+    /* Fonts */
+    --primary-font: Roboto, sans-serif;
+    --secondary-font: Raleway, sans-serif;
+    /* Colors */
+	--color-iris: #4d5ae5;
+	--color-ocean: #404bbf;
+	--color-navy-blue: #2e2f42;
+	--color-green: #31d0aa;
+	--color-slate: #434455;
+	--color-light-slate: #8e8f99;
+	--color-cornflower: #e7e9fc;
+	--color-cloud: #f4f4fd;
+	--color-navy-blue-modal: #2e2f42;
+	--color-grey: #2e2f42;
+	--color-white: #ffffff;
+	--color-dairy: #fcfcfc;
+	--color-ocean: #404bbf;
+    /* accent-color*/
+	--accent-color: #404bbf;
+    /* BG colors */
+    --body-bg-cl: #ffffff;
+    --hero-bg-cl:#2E2F42;
+    --team-bg-cl:#F4F4FD;
+    --footer-bg-cl:#2E2F42;
+
+   
+}
+body {
+    font-family: var(--primary-font);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-slate);
+    background-color: var(--body-bg-cl);
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+
+/* header */
+.logo {
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.16;
+color: #4D5AE5;
+}
+.logo-list {
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1,17;
+color: #2E2F42;
+}
+.logo-list-footer {
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1,17;
+color: var(--color-cloud);
+}
+.menu-nav {
+color: var(--color-navy-blue);
+font-size: 16px;
+line-height: 1.5;
+}
+.menu-item {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+color: var(--color-navy-blue);
+}
+.menu-link:hover,
+.menu-link:focus,
+.address-link:hover,
+.address-link:focus  {
+    color: var(--accent-color);
+}
+.address-item {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--color-slate);
+}
+
+/* Hero sections */
+.hero-section {
+    background-color:var(--hero-bg-color) ;
+}
+.hero-title {
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--color-white);
+}
+.hero-btn {
+font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: var(--color-white);
+background-color: var(--color-iris);
+cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: var(--accent-color);
+}
+
+/* Advantages */
+.advantages-title-hero {
+    color: var(--body-bg-cl)
+}
+.advantages-list {
+
+}
+.advantages-item {
+
+}
+.advantages-title,
+.team-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color-navy-blue);
+}
+.advantages-text,
+.team-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:var(--color-slate);
+}
+
+/* section2-What are we doing */
+.section2,
+.team-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--color-navy-blue);
+}
+
+/* Our Team */
+.team-sections {
+    background-color: var(--team-bg-cl);
+}
+.team-list {
+
+}
+.team-item{
+
+}
+
+/* footer */
+.footer-section {
+background-color: var(--footer-bg-cl);
+}
+.footer-text {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--color-cloud);
+}
