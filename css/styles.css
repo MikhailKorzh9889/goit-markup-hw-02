@@ -16,6 +16,8 @@
 	--color-white: #ffffff;
 	--color-dairy: #fcfcfc;
 	--color-ocean: #404bbf;
+    --color-btn-filter:#4D5AE5;
+    --btn-filter-active-cl:#FFFFFF;
     /* accent-color*/
 	--accent-color: #404bbf;
     /* BG colors */
@@ -23,7 +25,9 @@
     --hero-bg-cl:#2E2F42;
     --team-bg-cl:#F4F4FD;
     --footer-bg-cl:#2E2F42;
-
+    --portfolio-bg-cl:var(--color-white);
+    --btn-filter-bg: #F4F4FD;
+    --btn-filter-bg-active:#404BBF;
    
 }
 body {
@@ -69,9 +73,13 @@ font-size: 16px;
 line-height: 1.5;
 }
 .menu-item {
+
+}
+.menu-link {
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
+letter-spacing: 0.02em;
 color: var(--color-navy-blue);
 }
 .menu-link:hover,
@@ -81,6 +89,9 @@ color: var(--color-navy-blue);
     color: var(--accent-color);
 }
 .address-item {
+
+}
+.address-link {
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -89,7 +100,7 @@ color: var(--color-slate);
 
 /* Hero sections */
 .hero-section {
-    background-color:var(--hero-bg-color) ;
+    background-color:var(--hero-bg-cl) ;
 }
 .hero-title {
 font-weight: 700;
@@ -125,7 +136,8 @@ cursor: pointer;
 
 }
 .advantages-title,
-.team-subtitle {
+.team-subtitle,
+.portfolio-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -133,7 +145,8 @@ cursor: pointer;
     color: var(--color-navy-blue);
 }
 .advantages-text,
-.team-text {
+.team-text,
+.portfolio-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -146,6 +159,7 @@ cursor: pointer;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
+text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--color-navy-blue);
@@ -171,4 +185,41 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--color-cloud);
+}
+
+/* PORTFOLIO */
+
+/* Filter */
+.filter {
+
+}
+.filter-title {
+background-color: var(--portfolio-bg-cl);
+}
+.filter-list {
+
+}
+.filter-item {
+
+}
+.btn-filter {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.04em;
+color: var(--color-btn-filter);
+}
+.btn-filter:hover,
+.btn-filter:focus {
+color:var(--btn-filter-active-cl);
+background-color: var(--btn-filter-bg-active);
+}
+
+/* Portfolio */
+.portfolio-list {
+
+}
+.portfolio-item {
+    
 }
