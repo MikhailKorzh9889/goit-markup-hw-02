@@ -18,6 +18,8 @@
 	--color-ocean: #404bbf;
     --color-btn-filter:#4D5AE5;
     --btn-filter-active-cl:#FFFFFF;
+    --portfolio-title-cl:#2E2F42;
+    --portfolio-text-cl:#434455;
     /* accent-color*/
 	--accent-color: #404bbf;
     /* BG colors */
@@ -140,7 +142,7 @@ cursor: pointer;
 }
 .advantages-title,
 .team-subtitle,
-.portfolio-title {
+ {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -148,8 +150,7 @@ cursor: pointer;
     color: var(--color-navy-blue);
 }
 .advantages-text,
-.team-text,
-.portfolio-text {
+.team-text, {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -225,3 +226,18 @@ background-color: var(--btn-filter-bg-active);
 .portfolio-item {
 
 }
+.portfolio-text {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--portfolio-text-cl);
+}
+.portfolio-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--portfolio-title-cl);
+}
+
+
