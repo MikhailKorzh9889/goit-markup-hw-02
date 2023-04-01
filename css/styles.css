@@ -140,21 +140,18 @@ cursor: pointer;
 .advantages-item {
 
 }
-.advantages-title,
-.team-subtitle,
- {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--color-navy-blue);
+.advantages-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--color-navy-blue);
 }
-.advantages-text,
-.team-text, {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color:var(--color-slate);
+.advantages-text {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color:var(--color-slate);
 }
 
 /* section2-What are we doing */
@@ -173,10 +170,25 @@ color: var(--color-navy-blue);
     background-color: var(--team-bg-cl);
 }
 .team-list {
-background-color: var(--color-white);
+
 }
 .team-item{
-
+background-color: var(--color-white);
+}
+.team-subtitle {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--color-navy-blue);
+}
+.team-text {
+font-size: 16px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--color-slate);
 }
 
 /* footer */
