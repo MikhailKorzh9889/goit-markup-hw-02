@@ -97,6 +97,7 @@ color: var(--color-navy-blue);
 }
 .address-link {
 font-style: normal;
+font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -156,8 +157,7 @@ cursor: pointer;
 }
 
 /* section2-What are we doing */
-.section2,
-.team-title {
+.title-sections {
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
@@ -172,7 +172,7 @@ color: var(--color-navy-blue);
     background-color: var(--team-bg-cl);
 }
 .team-list {
-
+background-color: var(--color-white);
 }
 .team-item{
 
@@ -202,12 +202,15 @@ color: var(--color-cloud);
 
 }
 .btn-filter {
+font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 text-align: center;
 letter-spacing: 0.04em;
 color: var(--color-btn-filter);
+background-color: var(--btn-filter-bg);
+cursor: pointer;
 }
 .btn-filter:hover,
 .btn-filter:focus {
