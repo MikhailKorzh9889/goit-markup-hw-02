@@ -20,6 +20,8 @@
     --btn-filter-active-cl:#FFFFFF;
     --portfolio-title-cl:#2E2F42;
     --portfolio-text-cl:#434455;
+    --logo-cl:#4d5ae5;
+    --logo-list-cl:#2E2F42;
     /* accent-color*/
 	--accent-color: #404bbf;
     /* BG colors */
@@ -33,18 +35,18 @@
    
 }
 body {
-    font-family: var(--primary-font);
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--color-slate);
-    background-color: var(--body-bg-cl);
+font-family: var(--primary-font);
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--color-slate);
+background-color: var(--body-bg-cl);
 }
 .list {
-    list-style: none;
+list-style: none;
 }
 .link {
-    text-decoration: none;
+text-decoration: none;
 }
 
 /* header */
@@ -53,7 +55,7 @@ font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
-color: #4D5AE5;
+color: var(--logo-cl);
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
@@ -62,7 +64,7 @@ font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1,17;
-color: #2E2F42;
+color: var(--logo-list-cl);
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
@@ -102,7 +104,6 @@ font-style: normal;
 }
 .address-link {
 font-style: normal;
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -111,10 +112,9 @@ color: var(--color-slate);
 
 /* Hero sections */
 .hero-section {
-    background-color:var(--hero-bg-cl) ;
+background-color:var(--hero-bg-cl) ;
 }
 .hero-title {
-font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
 text-align: center;
@@ -159,7 +159,6 @@ color:var(--color-slate);
 
 /* section2-What are we doing */
 .title-sections {
-font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 text-align: center;
